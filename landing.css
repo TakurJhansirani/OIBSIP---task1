@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.nature{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(bg.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+   
+}
+header .logo{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+header .logo span{
+    color: rgb(8, 201, 8);
+}
+header .nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    text-transform: capitalize;
+    padding: 3px;
+    margin-right: 30px;
+    transition-property: all;
+}
+header .nav a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+ .section{
+    width: 800px;
+    margin: 60px 100px;
+}
+.section h2{
+    color: rgb(10, 55, 189);
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800px;
+    line-height: 60px;
+}
+.section h2 span{
+    color: rgb(8, 201, 8);
+    font-weight: 600;
+    font-size: 45px;
+}
+.section p{
+    font-size: 16px;
+    font-weight: 550;
+    margin-bottom: 40px;
+}
+.section .info{
+    color: white;
+    background-color: rgb(10, 55, 189);
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section .info:hover{
+    background-color: transparent;
+    color: black ;
+    border: 2px solid rgb(10, 55, 189);
+}
